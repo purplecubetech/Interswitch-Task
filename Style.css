@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px auto; */
+    /* width : auto; */
+}
+.upper-section{
+    background-image: url("/Assets/hero-banner.jpg");
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+}
+.nav-bar div{
+ margin-left: 1.5em;   
+}
+.nav-left{
+
+}
+.nav-right{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size:large;
+    text-align: center;
+}
+.items{
+    /* margin-left: 40px; */
+    /* justify-content: space-between; */
+}
+.top-central-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+#force-awaken{
+    color: aliceblue;
+    font-size: larger;
+}
+.lower-section{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red !important; */
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red !important; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33.3%;
+    align-items:flex-start;
+    border: 2px solid green;
+    margin: 0.5em 1.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+.upper-card{
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 2px solid red;
+}
+.card-image{
+    width: 100%;
+}
+.card-title h3{
+    align-self:self-start;
+    /* border: 2px solid green; */
+}
+.card-button{
+    padding: 0.2em;
+}
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+    align-self: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
