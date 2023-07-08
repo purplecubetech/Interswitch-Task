@@ -24,16 +24,13 @@ body{
 .nav-bar div{
  margin-left: 1.5em;   
 }
-.nav-left{
-
-}
 .nav-right{
     width: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: aliceblue;
-    font-size:large;
+    font-size:13px;
     text-align: center;
 }
 .items{
@@ -44,11 +41,33 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
+}
+.star-wars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.star, .wars {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+.wars{
+    /* margin-top: 0.5em; */
+margin: -5px;
+}
+#wars{
+    /* margin-top: 0.3em; */
+margin: -5px;
 }
 #force-awaken{
     color: aliceblue;
-    font-size: larger;
+    font-size: 28px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    position: relative;
+    top: -14px;
 }
 .lower-section{
     display: flex;
@@ -65,31 +84,44 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 33.3%;
-    align-items:flex-start;
-    border: 2px solid green;
     margin: 0.5em 1.5em;
     padding-bottom: 0.5em;
     text-align: left;
 }
-.upper-card{
-    /* display: flex; */
-    /* flex-direction: column; */
+/* .upper-card{
+    display: flex;
+    flex-direction: column;
     border: 2px solid red;
-}
-.card-image{
-    width: 100%;
-}
-.card-title h3{
-    align-self:self-start;
-    /* border: 2px solid green; */
-}
-.card-button{
-    padding: 0.2em;
-}
+} */
 .heading{
-    font-size: larger;
+    font-size: 22px;
     font-weight: bolder;
     align-self: center;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+.upper-card{
+    /* border: 2px solid red; */
+}
+.card-image{
+    width: 100%;
+}
+.card-title {
+}
+.card-title p{
+    margin-top: 0px;
+    font-size: 14px;
+}
+.card-write-ups{
+font-size: 14px;
+}
+.card-write-ups p{
+    margin-top: 0;
+}
+.card-button{
+    margin-top: 0.5em;
+}
+.card-btn{
+    padding: 0.3em;
+    font-size: 11px;
 }
